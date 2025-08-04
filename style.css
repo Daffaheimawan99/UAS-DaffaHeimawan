@@ -1,0 +1,105 @@
+/* --- DASAR --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f7;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- LINK --- */
+a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #ff9900;
+    font-size: 105%;
+}
+
+/* --- HEADER & FOOTER --- */
+header, footer,
+table[bgcolor="#1a1a2e"] {
+    background-color: #1a1a2e;
+    color: gold;
+    text-align: center;
+}
+
+/* --- NAVIGASI --- */
+table[bgcolor="gold"] {
+    background-color: gold;
+    text-align: center;
+}
+
+table[bgcolor="gold"] a {
+    font-weight: bold;
+    margin: 0 px;
+}
+
+/* --- KONTEN --- */
+td {
+    vertical-align: top;
+}
+
+td[align="center"] {
+    text-align: center;
+}
+
+/* --- GAMBAR --- */
+img {
+    max-width: 50%;
+    height: 30%;
+    display: block;
+    margin: 5px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* --- FORM & INPUT --- */
+input, textarea, select {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #f5b301;
+    background-color: #fffef2;
+}
+
+/* --- TOMBOL --- */
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    background-color: gold;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+/* --- MARQUEE --- */
+marquee {
+    padding: 0;
+    font-weight: bold;
+    background-color: #f8f8f8;
+    color: #1a1a2e;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
